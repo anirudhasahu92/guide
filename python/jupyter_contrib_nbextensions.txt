@@ -1,0 +1,18 @@
+How to install jupyter_contrib_nbextensions in a particular environment (my environment name : tensorflow_env) in Anaconda to work in Jupyter notebook:
+# STEPS:
+# 1) Open 'Anaconda prompt' or 'Anaconda Powershell prompt'
+# 2) Activate the environment where you want to install the jupyter_contrib_nbextensions using the command below:
+#    conda activate <environment_name>
+# My environement name is 'tensorflow_env' so I am using the command below:
+#    conda activate tensorflow_env
+# 3) install Jupyter Notebook extensions using the following command below:
+#    conda install -c conda-forge jupyter_contrib_nbextensions
+# 4) enable the nbextensions configurator using the following command below:
+#    jupyter nbextensions_configurator enable --user
+# 5) After the above steps are done --> go to jupyter notebook with the tensorflow_env from the 'Anaconda Navigator' and enable all the 
+# extensions (important one is 'Hinterland') from the nbextensions tab adjacent to the clusters tab
+
+# My versions:
+# Python 3.10.13
+# Jupyter notebook : 6.5.4
+
