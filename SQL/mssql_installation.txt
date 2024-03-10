@@ -1,0 +1,44 @@
+How to install MS-SQL from scratch
+Tasks To Be Performed:
+1. Install MS SQL Server
+Step 1 : Go to any browser and type 'ms sql server 2022 download'. Press the search button.
+Step 2: Choose the appropriate link. Make sure the link must be of microsoft website.
+Step 3: Click on the 'try now' button in the ms sql server 2022 window.
+Step 4: Choose Developer edition under free download options that are presented in the website. Open the Setup file that will be downloaded after choosing.
+Step 5: Allow setup to make changes to PC. Choose Custom installation option.
+Step 6: Make sure there is enough space in default location. Select Install Button below.
+Note: SQL Server Installation Center window will open automatically upon completion of installation.
+Step 7: Select Installation
+Step 8: Select the first option i.e 'New SQL Server standard installation or add features to an existing installation'.
+Note: SQL Server setup window will be opened automatically upon selection. SQL Server Installation center window will stay open in the background.
+Step 9: Select Developer under 'Specify a free edition'. Proceed to Select 'Next'.
+Step 10: Accept the terms and condition and proceed to click on next.
+Step 11: Select 'Use Microsoft Update to check for updates' checkbox if required. Then select 'Next'. (Optional)
+Step 12: Ignore the 'Windows Firewall' warning. Click on 'Next'.
+Step 13: Note : This Page won’t appear for those who are installing SQL server 2019. Uncheck 'Azure Extension for SQL Server'. Click on 'Next'
+Step 14: Select 'Database Engine Services' and 'SQL Server Replication' features under instance features. Select 'Next'.
+Note : Do not select any other features which may require additional packages
+Step 15: Select the instance type (e.g. "Default instance," "Named instance"). If "Named instance" is selected, enter the unique name for the instance. Select “Next”.
+Step 16: In the server configuration make sure all the services are set to 'Automatic' in the 'startup type'. Also make sure to uncheck the dialog box below. 
+If unchecked let it stay that way.
+Step 17: Select “Mixed Mode” radio button. Create and Confirm a simple password which will be used later to connect with Database. Select “Add Current User”. Select “Next”.
+Step 18: Select “Install” button. Note: The Server will be installed in this window. Note: After Installation is successful. Proceed to close this window.
+Step 19: Now Click on install SQL Server Management Tools. It will take you to SSMS Website.
+Step 20: Click on "Free Download for SQL Server Management Studio (SSMS)". Your SSMS will Start Downloading (Size 677 MB).
+Step 21: Once your Download is complete you can now open the file. It will ask for admin permission Just click on ‘Yes’. And then you you have to click on install.
+It will start installing. Note: In the next window once the overall progress is complete your SSMS Installation is done.
+Step 22: Once you get a close option you can close the page. If you got a ‘RESTART’ option next to Close you can restart your PC.
+Step 23: After Closing SSMS Installation page or after restarting your PC. You can now search SSMS in your Windows Search Bar. 
+And now Click on ‘Microsoft SQL Server Management Studio'. A window will appear once SSMS is opened.
+Step 24: Change to “SQL Server Authentication” from “Windows Authentication” under Authentication.
+Step 25: Type “sa” under Login (which means System administrator). Write the password that you created during Server installation. Click on “Connect”
+Note: Once Installation and connection is complete you can start writing queries. 
+Thank you 
+
+Have a nice day !
+
+Anirudha Kumar Sahu
+
+ 
+ 
+
